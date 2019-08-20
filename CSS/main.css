@@ -1,0 +1,60 @@
+
+/* responsive header */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 0, 0, 0.493);
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+/* responsive footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 0, 0, 0.534);
+}
+
+/* flexbox card system for main content, change card sizing by adjusting height & width */
+
+content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card {
+    height: 200px;  
+    width: 400px;
+    border: 1px solid red;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.smallCard {
+    height: 200px;  
+    width: 200px;
+    border: 1px solid red;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.longCard {
+    height: 200px;  
+    width: 600px;
+    border: 1px solid red;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 5px;
+}
