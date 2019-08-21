@@ -89,6 +89,76 @@ content {
 .longCard {
     height: 200px;  
     width: 600px;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+/*Personal card styling*/
+
+/* Date of Birth */
+.birthday {
+    background: url("/images/downey.jpeg");
+    background-position: 50% 40%;
+    color: rgb(201, 195, 195);
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+/* description inside photos */
+
+.textBox {
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 10px;
+    padding: 0em .2em;
+}
+
+.textBox h4, .textBox p  {
+    margin: 0.1em;
+
+}
+
+/* BirthDate */
+
+.name {
+    background: url("/images/robertNdad.jpeg");
+    background-position: 50% 80%;
+    color: rgb(201, 195, 195);
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+/* Current Country Of Residence */
+
+.res {
+    background: url("/images/residence.jpeg");
+    background-position: 40% 60%;
+    color: rgb(201, 195, 195);
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+/* Current Family Photos */
+
+.familyPics {
+    background: url("/images/rdjson.png");
+    background-position: 60% 30%;
+    color: rgb(201, 195, 195);
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.longCard{
+    height: 200px;  
+    width: 600px;
     border: 1px solid red;
     margin: 2em;
     padding: 1em;
