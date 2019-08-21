@@ -7,9 +7,6 @@ body {
 nav {
     padding: 1em 0em;
     height: 40px;
-/* responsive header */
-
-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -49,16 +46,7 @@ h1 {
     height: 500px;
     background-position: left;
     color: white;
-}
-
-/* Flexbox cards for Excutive Summary */
-
-    background-color: rgba(255, 0, 0, 0.493);
-}
-
-.subtitle {
     display: flex;
-    justify-content: center;
     background-color: grey;
 }
 
@@ -105,6 +93,66 @@ content {
     margin: 2em;
     padding: 1em;
     border-radius: 5px;
+}
+
+
+/* newsfeed card styling */
+
+.unite {
+    background: url("/images/AvengersUnite.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.cardContent {
+    background-color: rgba(0, 0, 0, 0.658);
+    border-radius: 5px;
+    padding: 0em .5em;
+}
+
+.cardContent h3, .cardContent p {
+    margin: .2em;
+}
+
+.teenChoice {
+    background: url("/images/teenchoiceawards.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.avengersPremiere{
+    background: url("/images/avengerspremier.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.kimmel{
+    background: url("/images/Kimmel.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    background-position: 50% 10%;
+}
+
+.siskel{
+    background: url("/images/siskel.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    background-position: top;
 }
 /* Executive Summary Card Styling */
 
@@ -169,9 +217,5 @@ footer {
 footer a {
     height: 32px;
 }
-=======
-    margin: 1em;
-    padding: 1em;
-    border-radius: 5px;
-}
+
 
