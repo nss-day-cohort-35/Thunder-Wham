@@ -1,0 +1,148 @@
+/* Navigation Bar */
+body {
+    background-color: rgb(236, 236, 236);
+    margin: 0;
+}
+nav {
+    padding: 1em 0em;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    font-family: Tahoma;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+/*Link Design*/
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: rgb(92, 91, 91);
+}
+
+/* Title Design */
+h1 {
+    display: block;
+    direction: rtl;
+    font-family: Tahoma;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-shadow: black 1px 0 10px;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("/images/es-title2.jpg");
+    background-size: cover;
+    height: 500px;
+    background-position: left;
+    color: white;
+}
+
+/* Flexbox cards for Excutive Summary */
+
+content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card {
+    height: 200px;  
+    width: 400px;
+    border: 1px solid red;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.smallCard {
+    height: 200px;  
+    width: 200px;
+    border: 1px solid red;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.longCard {
+    height: 200px;  
+    width: 600px;
+    border: 1px solid red;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 5px;
+}
+/* Executive Summary Card Styling */
+
+h3 {
+    display: block;
+    direction: center;
+    font-family: Tahoma;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.text-block {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.63);
+    padding: 1%;
+}
+
+.box1 {
+
+    display: flex;
+    align-items: flex-end;
+    height: 250px;  
+    width: 300px;
+    background: url("/images/box1.jpg");
+    background-size: cover;
+    color: white;
+}  
+.box1 .text-block h3 {
+    margin: .2em
+}
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;  
+    width: 300px;
+    background: url("/images/box2.jpeg");
+    background-size: cover;
+    color: white;
+}  
+.box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;  
+    width: 300px;
+    background: url("/images/box3.jpg");
+    background-size: cover;
+    color: white;
+}  
+
+/* responsive footer */
+
+footer {
+    padding: 1em 0em;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+footer a {
+    height: 32px;
+}
