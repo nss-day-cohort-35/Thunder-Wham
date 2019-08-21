@@ -1,17 +1,52 @@
 
-/* responsive header */
-
+/* Navigation Bar */
+body {
+    background-color: rgb(236, 236, 236);
+    margin: 0;
+}
 nav {
+    padding: 1em 0em;
+    height: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    background-color: rgba(255, 0, 0, 0.493);
+    background-color: black;
+    font-family: Tahoma;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+/*Link Design*/
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: rgb(92, 91, 91);
+}
+
+/* Title Design */
+h1 {
+    display: block;
+    direction: rtl;
+    font-family: Tahoma;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-shadow: black 1px 0 10px;
 }
 
 .subtitle {
     display: flex;
     justify-content: center;
+    align-items: center;
+    background: url("/images/es-title2.jpg");
+    background-size: cover;
+    height: 500px;
+    background-position: left;
+    color: white;
+    display: flex;
     background-color: grey;
 }
 
@@ -35,7 +70,8 @@ content {
 .card {
     height: 200px;  
     width: 400px;
-    margin: 1em;
+    border: 1px solid red;
+    margin: 2em;
     padding: 1em;
     border-radius: 5px;
 }
@@ -43,7 +79,9 @@ content {
 .smallCard {
     height: 200px;  
     width: 200px;
-    margin: 1em;
+    border: 1px solid red;
+    margin: 2em;
+
     padding: 1em;
     border-radius: 5px;
 }
@@ -122,8 +160,132 @@ content {
     height: 200px;  
     width: 600px;
     border: 1px solid red;
-    margin: 1em;
+    margin: 2em;
     padding: 1em;
     border-radius: 5px;
 }
+
+
+/* newsfeed card styling */
+
+.unite {
+    background: url("/images/AvengersUnite.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.cardContent {
+    background-color: rgba(0, 0, 0, 0.658);
+    border-radius: 5px;
+    padding: 0em .5em;
+}
+
+.cardContent h3, .cardContent p {
+    margin: .2em;
+}
+
+.teenChoice {
+    background: url("/images/teenchoiceawards.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.avengersPremiere{
+    background: url("/images/avengerspremier.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.kimmel{
+    background: url("/images/Kimmel.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    background-position: 50% 10%;
+}
+
+.siskel{
+    background: url("/images/siskel.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    background-position: top;
+}
+/* Executive Summary Card Styling */
+
+h3 {
+    display: block;
+    direction: center;
+    font-family: Tahoma;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.text-block {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.63);
+    padding: 1%;
+}
+
+.box1 {
+
+    display: flex;
+    align-items: flex-end;
+    height: 250px;  
+    width: 300px;
+    background: url("/images/box1.jpg");
+    background-size: cover;
+    color: white;
+}  
+.box1 .text-block h3 {
+    margin: .2em
+}
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;  
+    width: 300px;
+    background: url("/images/box2.jpeg");
+    background-size: cover;
+    color: white;
+}  
+.box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;  
+    width: 300px;
+    background: url("/images/box3.jpg");
+    background-size: cover;
+    color: white;
+}  
+
+/* responsive footer */
+
+footer {
+    padding: 1em 0em;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+footer a {
+    height: 32px;
+}
+
 
