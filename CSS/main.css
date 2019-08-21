@@ -35,7 +35,6 @@ content {
 .card {
     height: 200px;  
     width: 400px;
-    border: 1px solid red;
     margin: 1em;
     padding: 1em;
     border-radius: 5px;
@@ -44,7 +43,6 @@ content {
 .smallCard {
     height: 200px;  
     width: 200px;
-    border: 1px solid red;
     margin: 1em;
     padding: 1em;
     border-radius: 5px;
@@ -53,7 +51,6 @@ content {
 .longCard {
     height: 200px;  
     width: 600px;
-    border: 1px solid red;
     margin: 1em;
     padding: 1em;
     border-radius: 5px;
@@ -61,7 +58,7 @@ content {
 
 /*Personal card styling*/
 
-
+/* Date of Birth */
 .birthday {
     background: url("/images/downey.jpeg");
     background-position: 50% 40%;
@@ -71,6 +68,8 @@ content {
     justify-content: left;
     align-items: flex-end;
 }
+
+/* description inside photos */
 
 .textBox {
     background-color: rgba(0, 0, 0, 0.55);
@@ -83,9 +82,7 @@ content {
 
 }
 
- 
-
-
+/* BirthDate */
 
 .name {
     background: url("/images/robertNdad.jpeg");
@@ -97,22 +94,28 @@ content {
     align-items: flex-end;
 }
 
+/* Current Country Of Residence */
+
 .res {
-    height: 200px;  
-    width: 200px;
-    border: 1px solid red;
-    margin: 1em;
-    padding: 1em;
-    border-radius: 5px;
+    background: url("/images/residence.jpeg");
+    background-position: 40% 60%;
+    color: rgb(201, 195, 195);
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
 }
 
-.familypics {
-    height: 200px;  
-    width: 600px;
-    border: 1px solid red;
-    margin: 1em;
-    padding: 1em;
-    border-radius: 5px;
+/* Current Family Photos */
+
+.familyPics {
+    background: url("/images/rdjson.png");
+    background-position: 60% 30%;
+    color: rgb(201, 195, 195);
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
 }
 
 .longCard{
