@@ -238,18 +238,17 @@ h3 {
 .text-block {
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.63);
-    padding: 10px;
-    width: 250px;
-    margin: 0px auto;
+    padding: 1%;
 }
-.sagebox h3 {
-    margin: 0px;
-    padding: 0px;
+ 
+.box1 .text-block h3 {
+    margin: .2em;
+    width: 300px;
 }
 .sagebox {
     display: flex;
-    justify-content: left;
-    align-items: flex-end;
+    flex-direction: column-reverse;
+    justify-content: center;
     height: 250px;  
     width: 300px;
     justify-content: center;
@@ -262,104 +261,18 @@ h3 {
     align-items: flex-end;
 }
 .box2 {
-    background: url("/images/box2.jpg");
+    background: url("/images/box2.jpeg");
     background-size: cover;
 
 }  
 .box3 {
-    background: url("/images/box3.jpeg");
+    background: url("/images/box3.jpg");
     background-size: cover;
 }
-
-
-/* Career */
-
-.intro {
-    height: 300px;  
-    width: 400px;
-    background: url("/images/intro_RDJ.jpg");
-    background-size: cover;
-    color: white;
-    }
-/* RDJ's talents and skills */
-.talents {
-    height: 300px;  
-    width: 400px;
-    background: url("/images/rdj_skills.jpg");
-    background-size: cover;
-    background-position: center;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-/* places that RDJ has lived */
-.home {
-    height: 250px;  
-    width: 300px; 
-    background: url("/images/rdj_house.jpg");
-    background-size: cover;
-    background-position: center;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.sagebox .text-block {
+    width: 250px;
+    height: auto;
 }
-/* Published works */
-.film1 {
-    height: 250px;  
-    width: 300px;
-    background: url("/images/rdj_iron_man.jpg");
-    background-size: cover;
-    background-position: center;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.film2 {
-    height: 250px;  
-    width: 300px;
-    background: url("/images/rdj_sherlock2.jpg");
-    background-size: cover;
-    background-position: center;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.film3 {
-    height: 250px;  
-    width: 300px;
-    background: url("/images/rdj_tt.jpg");
-    background-size: cover;
-    background-position: center;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.awards {
-    height: 250px;  
-    width: 3s00px;
-    background: url("/images/rdj_gg.jpg");
-    background-size: cover;
-    background-position: center;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
- .text-block {
-            background-color: rgba(0, 0, 0, 0.473);
-            padding: .2em;
-        }
-
-
-
 
 /* responsive footer */
 
