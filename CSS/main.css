@@ -264,10 +264,10 @@ h3 {
     background-size: cover;
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    align-items: flex-end;
+    justify-content: left;
     }
+
 /* RDJ's talents and skills */
 .talents {
     height: 300px;  
@@ -329,7 +329,7 @@ h3 {
 .awards {
     height: 300px;  
     width: 400px;
-    background: url("/images/rdj_gg.jpg");
+    background: url("/images/rdj_awards.jpg");
     background-size: cover;
     background-position: center;
     color: white;
@@ -338,10 +338,20 @@ h3 {
     justify-content: left;
 }
 
- .mmtext-block {
-            background-color: rgba(0, 0, 0, 0.473);
+.mmtext-block {
+            background-color: rgba(0, 0, 0, 0.507);
             padding: .2em;
         }
+
+.mmtext-block h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mmtext-block p {
+    margin-bottom: 0;
+    margin-top: .3em
+}
 
 /* responsive footer */
 footer {
