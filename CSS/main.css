@@ -101,7 +101,7 @@ content {
 .birthday {
     background: url("/images/downey2.jpeg");
     background-position: 50% 60%;
-    color: rgb(201, 195, 195);
+    color: rgb(231, 226, 226);
     background-size: cover;
     display: flex;
     justify-content: left;
