@@ -272,6 +272,99 @@ h3 {
 }
 
 
+/* Career */
+
+.intro {
+    height: 300px;  
+    width: 400px;
+    background: url("/images/intro_RDJ.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+/* RDJ's talents and skills */
+.talents {
+    height: 300px;  
+    width: 400px;
+    background: url("/images/rdj_skills.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+/* places that RDJ has lived */
+.home {
+    height: 300px;  
+    width: 400px; 
+    background: url("/images/rdj_house.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Published works */
+.film1 {
+    height: 300px;  
+    width: 400px;
+    background: url("/images/rdj_iron_man.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.film2 {
+    height: 300px;  
+    width: 400px;
+    background: url("/images/rdj_sherlock2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.film3 {
+    height: 300px;  
+    width: 400px;
+    background: url("/images/rdj_tt.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.awards {
+    height: 300px;  
+    width: 400px;
+    background: url("/images/rdj_gg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+ .mmtext-block {
+            background-color: rgba(0, 0, 0, 0.473);
+            padding: .2em;
+        }
+
+
+
+
 /* responsive footer */
 
 footer {
