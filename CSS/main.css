@@ -17,8 +17,8 @@ nav {
     letter-spacing: 2px;
     justify-content: space-around;
 }
-/*Link Design*/
 
+/*Link Design*/
 a {
     text-decoration: none;
 }
@@ -52,14 +52,6 @@ h1 {
     background-color: grey;
 }
 
-/* responsive footer */
-
-footer {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(255, 0, 0, 0.534);
-}
-
 /* flexbox card system for main content, change card sizing by adjusting height & width */
 
 content {
@@ -72,7 +64,6 @@ content {
 .card {
     height: 200px;  
     width: 400px;
-    border: 1px solid red;
     margin: 2em;
     padding: 1em;
     border-radius: 5px;
@@ -81,7 +72,6 @@ content {
 .smallCard {
     height: 200px;  
     width: 200px;
-    border: 1px solid red;
     margin: 2em;
     padding: 1em;
     border-radius: 5px;
@@ -95,8 +85,7 @@ content {
     border-radius: 5px;
 }
 
-/*Personal card styling*/
-
+/*Personal Card Styling*/
 /* Date of Birth */
 .birthday {
     background: url("/images/downey.jpeg");
@@ -118,7 +107,6 @@ content {
 
 .textBox h4, .textBox p  {
     margin: 0.1em;
-
 }
 
 /* BirthDate */
@@ -160,15 +148,12 @@ content {
 .longCard{
     height: 200px;  
     width: 600px;
-    border: 1px solid red;
     margin: 2em;
     padding: 1em;
     border-radius: 5px;
 }
 
-
 /* newsfeed card styling */
-
 .unite {
     background: url("/images/AvengersUnite.jpg");
     background-size: cover;
@@ -225,8 +210,8 @@ content {
     justify-content: baseline;
     background-position: top;
 }
-/* Executive Summary Card Styling */
 
+/* Executive Summary Card Styling */
 h3 {
     display: block;
     direction: center;
@@ -271,9 +256,7 @@ h3 {
     background-size: cover;
 }
 
-
-/* Career */
-
+/* Career Card Styling */
 .intro {
     height: 300px;  
     width: 400px;
@@ -355,18 +338,12 @@ h3 {
     justify-content: center;
 }
 
-
-
  .mmtext-block {
             background-color: rgba(0, 0, 0, 0.473);
             padding: .2em;
         }
 
-
-
-
 /* responsive footer */
-
 footer {
     padding: 1em 0em;
     height: 40px;
