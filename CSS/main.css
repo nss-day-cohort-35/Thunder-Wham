@@ -99,8 +99,8 @@ content {
 
 /* Date of Birth */
 .birthday {
-    background: url("/images/downey.jpeg");
-    background-position: 50% 40%;
+    background: url("/images/downey2.jpeg");
+    background-position: 50% 60%;
     color: rgb(201, 195, 195);
     background-size: cover;
     display: flex;
