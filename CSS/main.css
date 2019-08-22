@@ -116,9 +116,9 @@ content {
 /*Personal Card Styling*/
 /* Date of Birth */
 .birthday {
-    background: url("/images/downey.jpeg");
-    background-position: 50% 40%;
-    color: rgb(201, 195, 195);
+    background: url("/images/downey2.jpeg");
+    background-position: 50% 60%;
+    color: rgb(231, 226, 226);
     background-size: cover;
     display: flex;
     justify-content: left;
@@ -129,7 +129,7 @@ content {
 
 .textBox {
     background-color: rgba(0, 0, 0, 0.55);
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 0em .2em;
 }
 
@@ -142,7 +142,7 @@ content {
 .name {
     background: url("/images/robertNdad.jpeg");
     background-position: 50% 80%;
-    color: rgb(201, 195, 195);
+    color: rgb(231, 226, 226);
     background-size: cover;
     display: flex;
     justify-content: left;
@@ -154,7 +154,7 @@ content {
 .res {
     background: url("/images/residence.jpeg");
     background-position: 40% 60%;
-    color: rgb(201, 195, 195);
+    color: rgb(231, 226, 226);
     background-size: cover;
     display: flex;
     justify-content: left;
@@ -166,7 +166,7 @@ content {
 .familyPics {
     background: url("/images/rdjson.png");
     background-position: 60% 30%;
-    color: rgb(201, 195, 195);
+    color: rgb(231, 226, 226);
     background-size: cover;
     display: flex;
     justify-content: left;
@@ -292,10 +292,10 @@ h3 {
     background-size: cover;
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    align-items: flex-end;
+    justify-content: left;
     }
+
 /* RDJ's talents and skills */
 .talents {
     height: 300px;  
@@ -357,7 +357,7 @@ h3 {
 .awards {
     height: 300px;  
     width: 400px;
-    background: url("/images/rdj_gg.jpg");
+    background: url("/images/rdj_awards.jpg");
     background-size: cover;
     background-position: center;
     color: white;
@@ -366,10 +366,20 @@ h3 {
     justify-content: left;
 }
 
- .mmtext-block {
-            background-color: rgba(0, 0, 0, 0.473);
+.mmtext-block {
+            background-color: rgba(0, 0, 0, 0.507);
             padding: .2em;
         }
+
+.mmtext-block h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mmtext-block p {
+    margin-bottom: 0;
+    margin-top: .3em
+}
 
 /* responsive footer */
 $width: 42px;
