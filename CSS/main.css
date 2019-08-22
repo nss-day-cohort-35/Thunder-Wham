@@ -317,8 +317,8 @@ h3 {
     background-position: center;
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:flex-end;
+    justify-content: left;
 }
 /* Published works */
 .film1 {
@@ -329,8 +329,8 @@ h3 {
     background-position: center;
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:flex-end;
+    justify-content: left;
 }
 .film2 {
     height: 300px;  
@@ -340,8 +340,8 @@ h3 {
     background-position: center;
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:flex-end;
+    justify-content: left;
 }
 .film3 {
     height: 300px;  
@@ -351,8 +351,8 @@ h3 {
     background-position: center;
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:flex-end;
+    justify-content: left;
 }
 .awards {
     height: 300px;  
@@ -362,8 +362,8 @@ h3 {
     background-position: center;
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:flex-end;
+    justify-content: left;
 }
 
  .mmtext-block {
