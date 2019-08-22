@@ -280,6 +280,10 @@ h3 {
     background: url("/images/intro_RDJ.jpg");
     background-size: cover;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     }
 /* RDJ's talents and skills */
 .talents {
@@ -295,8 +299,8 @@ h3 {
     }
 /* places that RDJ has lived */
 .home {
-    height: 250px;  
-    width: 300px; 
+    height: 300px;  
+    width: 400px; 
     background: url("/images/rdj_house.jpg");
     background-size: cover;
     background-position: center;
@@ -307,8 +311,8 @@ h3 {
 }
 /* Published works */
 .film1 {
-    height: 250px;  
-    width: 300px;
+    height: 300px;  
+    width: 400px;
     background: url("/images/rdj_iron_man.jpg");
     background-size: cover;
     background-position: center;
@@ -318,8 +322,8 @@ h3 {
     justify-content: center;
 }
 .film2 {
-    height: 250px;  
-    width: 300px;
+    height: 300px;  
+    width: 400px;
     background: url("/images/rdj_sherlock2.jpg");
     background-size: cover;
     background-position: center;
@@ -329,8 +333,8 @@ h3 {
     justify-content: center;
 }
 .film3 {
-    height: 250px;  
-    width: 300px;
+    height: 300px;  
+    width: 400px;
     background: url("/images/rdj_tt.jpg");
     background-size: cover;
     background-position: center;
@@ -340,8 +344,8 @@ h3 {
     justify-content: center;
 }
 .awards {
-    height: 250px;  
-    width: 3s00px;
+    height: 300px;  
+    width: 400px;
     background: url("/images/rdj_gg.jpg");
     background-size: cover;
     background-position: center;
@@ -353,7 +357,7 @@ h3 {
 
 
 
- .text-block {
+ .mmtext-block {
             background-color: rgba(0, 0, 0, 0.473);
             padding: .2em;
         }
