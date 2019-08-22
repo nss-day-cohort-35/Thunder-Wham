@@ -6,20 +6,21 @@ body {
     font-family: Tahoma;
 }
 nav {
-    padding: 1em 0em;
+    padding: 2em 0em;
     height: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     font-family: Tahoma;
     font-size: 15px;
     letter-spacing: 2px;
     justify-content: space-around;
+    z-index: -5;
 }
 
 /*Link Design*/
-a {
+/* a {
     text-decoration: none;
 }
 a:link {
@@ -27,7 +28,31 @@ a:link {
 }
 a:visited {
     color: rgb(255, 255, 255);
-}
+} */
+
+/* link button animation */
+
+.btn {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    display: block;
+    font-family: Tahoma, 'trebuchet ms';
+    font-size: 1em;
+    letter-spacing: 0.3em;
+    padding: .2em .5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: .5s;
+  }
+  
+  .btn:hover {
+    background: white;
+    color: black;
+    transform: scale(1.2)
+  }
+
 
 /* Title Design */
 h1 {
@@ -67,6 +92,7 @@ content {
     margin: 2em;
     padding: 1em;
     border-radius: 5px;
+    transition: .5s;
 }
 
 .smallCard {
@@ -75,6 +101,7 @@ content {
     margin: 2em;
     padding: 1em;
     border-radius: 5px;
+    transition: .5s;
 }
 
 .longCard {
@@ -83,14 +110,15 @@ content {
     margin: 1em;
     padding: 1em;
     border-radius: 5px;
+    transition: .5s;
 }
 
 /*Personal Card Styling*/
 /* Date of Birth */
 .birthday {
-    background: url("/images/downey.jpeg");
-    background-position: 50% 40%;
-    color: rgb(201, 195, 195);
+    background: url("/images/downey2.jpeg");
+    background-position: 50% 60%;
+    color: rgb(231, 226, 226);
     background-size: cover;
     display: flex;
     justify-content: left;
@@ -101,7 +129,7 @@ content {
 
 .textBox {
     background-color: rgba(0, 0, 0, 0.55);
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 0em .2em;
 }
 
@@ -114,7 +142,7 @@ content {
 .name {
     background: url("/images/robertNdad.jpeg");
     background-position: 50% 80%;
-    color: rgb(201, 195, 195);
+    color: rgb(231, 226, 226);
     background-size: cover;
     display: flex;
     justify-content: left;
@@ -126,7 +154,7 @@ content {
 .res {
     background: url("/images/residence.jpeg");
     background-position: 40% 60%;
-    color: rgb(201, 195, 195);
+    color: rgb(231, 226, 226);
     background-size: cover;
     display: flex;
     justify-content: left;
@@ -138,7 +166,7 @@ content {
 .familyPics {
     background: url("/images/rdjson.png");
     background-position: 60% 30%;
-    color: rgb(201, 195, 195);
+    color: rgb(231, 226, 226);
     background-size: cover;
     display: flex;
     justify-content: left;
@@ -369,7 +397,7 @@ footer a {
 /* card animation */
 
 content:hover .card , content:hover .longCard , content:hover .smallCard {
-    transform: scale(.8);
+    transform: scale(.9);
     transition: .5s;
 }
 
@@ -377,3 +405,4 @@ content .card:hover, content .longCard:hover, content .smallCard:hover {
     transform: scale(1.2);
     transition: .5s;
 }
+
